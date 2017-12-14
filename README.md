@@ -16,3 +16,8 @@ I would like to use this project to replace my other project grades.
 What I will learn:
 
 Since I’m not sure exactly what I’m gonna use to do it yet I can’t exactly fill this in. By class on tuesday I should have this figured out after I talk to you, but since we haven’t talked since class I can’t fill this out.
+
+
+Project Description:
+
+In this project I created an interactive website that lets the user learn about a tournament for the video game Super Smash Bros 4. On each page there is a different element that interacts with the user in a different way to either enhance their experience or make the site easier to use. On the openeing page I simply made a hover for the buttons that changes the background-color. On the first page I implemented a picture and through css gave it a shake effect. On the second page I implimented Modals so that each individual player has one pop up for them when the "more info" button is clicked. Finally on the third page I made the bracket into different sections that can all be zoomed in on when hovered over. I think the most difficult part of this project was learning how not only to impliment Modals, but have 8 different modals that were all unique to their own button on a page. The other part that I found I struggled with was organizing the last page that contained a bracket. I wanted to make it so there were differnt elements that showed the divisions in the bracket, but still make it intuitive.
