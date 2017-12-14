@@ -1,0 +1,146 @@
+body{
+    padding-top: 50;
+    font-family:'Oswald', sans-serif;
+    background-color: beige;
+}
+h1{
+    
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+    margin-left: 14em;
+    margin-right: 14em;
+    
+}
+
+
+
+li{
+    float: left;
+    
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 20px 17px;
+
+}
+
+header{
+    -webkit-text-stroke: 1px black;
+    
+    font-size: 60px;
+}
+
+#container{
+    background-image: url("kill.png");
+    border: solid;
+    margin-left: 14em;
+    margin-right: 14em;
+}
+
+
+#button1{
+    text-align: center;
+    padding-top: 2em;
+    padding-right: 74em;
+}
+
+#button2{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 74em;
+}
+
+
+
+button{
+    width: 340px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 16px;
+    
+}
+
+#tournamentInfo{
+    background-color: tan;
+    text-align: center;
+}
+
+#winnerEight{
+    border: 3px solid;
+    transition: all .5s ease-in-out;
+}
+
+#winnerEight:hover{
+    transform: scale(1.5);
+
+}
+
+#winnerFour{
+    border: 3px solid darkgoldenrod;
+    margin-bottom: 50px;
+    transition: all .5s ease-in-out;
+}
+
+#winnerFour:hover{
+    transform: scale(1.5);
+}
+#winnerTwo{
+    border: 3px solid silver;
+    margin-bottom: 145px;
+    transition: all .5s ease-in-out;
+}
+
+
+#winnerTwo:hover{
+    transform: scale(1.5);
+}
+#winnerGrand{
+    border: 3px solid gold;
+    margin-bottom: 147px;
+    transition: all .5s ease-in-out;
+}
+
+#winnerGrand:hover{
+    transform: scale(1.5);
+}
+
+#bot1{
+    border: 3px solid;
+    transition: all .5s ease-in-out;
+}
+
+#bot1:hover{
+    transform: scale(1.5);
+}
+
+
+#bot2{
+    border: 3px solid;
+    transition: all .5s ease-in-out;
+    margin-bottom: 45px;
+}
+
+#bot2:hover{
+    transform: scale(1.5);
+}
+
+#lastDiv{
+    padding-bottom: 5em;
+}
+
+h1{
+    padding-bottom: 50px;
+    text-decoration: underline;
+}

@@ -1,0 +1,167 @@
+body{
+    padding-top: 50;
+    font-family:'Oswald', sans-serif;
+    background-color: beige;
+}
+h1{
+    
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+    margin-left: 14em;
+    margin-right: 14em;
+    
+}
+
+.nav{
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 20px 17px;
+
+}
+
+header{
+    -webkit-text-stroke: 3px black;
+    font-size: 60px;
+}
+
+#container{
+    background-image: url("kill.png");
+    border: solid;
+    margin-left: 14em;
+    margin-right: 14em;
+}
+
+
+#button1{
+    text-align: center;
+    padding-top: 2em;
+    padding-right: 74em;
+}
+
+#button2{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 74em;
+}
+
+
+
+button{
+    width: 340px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 16px;
+    
+}
+
+#tournamentInfo{
+    background-color: tan;
+    text-align: center;
+}
+
+#summary{
+    margin:0 auto;
+    width: 800px;
+    font-size: 25px;
+}
+
+#picture{
+    width: 800px;
+}
+
+#picture:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+#pictureFrame{
+    margin-right: 200px;
+}

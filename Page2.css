@@ -1,0 +1,199 @@
+body{
+    padding-top: 50;
+    font-family:'Oswald', sans-serif;
+    background-color: beige;
+}
+h1{
+    
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+    margin-left: 14em;
+    margin-right: 14em;
+    
+}
+
+.nav{
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 20px 17px;
+
+}
+
+header{
+    -webkit-text-stroke: 3px black;
+    font-size: 60px;
+}
+
+#container{
+    background-image: url("kill.png");
+    border: solid;
+    margin-left: 14em;
+    margin-right: 14em;
+}
+
+
+#button1{
+    text-align: center;
+    padding-top: 2em;
+    padding-right: 74em;
+}
+
+#button2{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 74em;
+}
+
+
+
+button{
+    width: 340px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 16px;
+    
+    
+}
+
+#tournamentInfo{
+    
+    text-align: center;
+}
+
+
+#row{
+    display: inline-block;
+    
+}
+
+header{
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: tan;
+    width: 400px;
+    margin:0 auto;
+}
+
+#playerCard{
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 50px;
+}
+
+#moreInfo{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#hiddenButton{
+    width: 200px;
+    background-color: tan;
+    opacity: 0;
+    border: none;
+    font: hidden;
+}
+
+/* Popup Box */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 8888; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    }
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: tan;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+}
+
+
+
+
+
+
+
+
+
+
